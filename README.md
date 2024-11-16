@@ -1,16 +1,19 @@
 # Agentic-Framework
 
-#Overview
+# Overview
+
 This repository provides an AI-powered solution for extracting and summarizing step-by-step instructions and relevant details from PDF documents related to business processes. The project leverages tools such as LlamaIndex, CREWAI, and CREWAI Tools to automate the process of retrieving and organizing information in a user-friendly format.
 
-#Features
+# Features
+
 - PDF Analysis: Extracts text and tables from PDF documents for in-depth analysis.
 - Step-by-step Instruction Retrieval: Provides detailed guidance on business processes.
 - Comprehensive Summaries: Summarizes relevant content and tables into structured outputs.
 - Agent-Based Architecture: Utilizes AI agents for targeted task handling, enhancing efficiency and output quality.
 - Customizable Outputs: Supports output in different formats, such as generating new PDFs with results.
 
-#Agents
+# Agents
+
 SAP_tool:
 Role: Researcher for extracting step-by-step instructions.
 Goal: Retrieves business process steps from the PDF.
